@@ -23,8 +23,8 @@ Configure
 ---------
 
         package.json to include start & build scripts
-	.babelrc to use presets for react
-	webpack.config.js to be used for .jsx and .css files
+        .babelrc to use presets for react
+        webpack.config.js to be used for .jsx and .css files
 
 Make the app
 ------------
