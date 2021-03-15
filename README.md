@@ -10,6 +10,8 @@ Useful Links
 
 Install
 -------
+
+This can all be done automatically using `npx create-react-app meet-the-teams` but I'll learn more this way
         
         npm init
         npm install --save-dev \
@@ -30,12 +32,13 @@ Make the app
 ------------
 
 
-        Create index.jsx containing:
+        Create src/App.js containing:
                 react component (simple function) that returns an HTML
-                reactDom that renders the above component in a specific element
-        Create index.html containing:
+        Create src/index.js containing:
+                renders the above component
+        Create public/index.html containing:
                 div that as the id of the element being used in index.html
-        Create style.css that styles the component being used
+        Create src/App.css that styles the component being used
 
 Launch
 ------
